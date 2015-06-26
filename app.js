@@ -55,7 +55,7 @@ process.chdir(__dirname);
 
 
   // keep alive remote app server
-  var http = require("http");
+/*  var http = require("http");
 
 //The url we want is: 'www.random.org/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
 var options = {
@@ -66,7 +66,7 @@ var options = {
 setInterval(function() {
     http.get(options);
        console.log("Aggiornato");
-},300000);
+},300000); */
   // Start server
 sails.lift(rc('sails'));
 })();
